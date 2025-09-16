@@ -31,7 +31,7 @@
       </a-entity>
     >
       <!-- Model -->
-      <a-entity gltf-model="#model" position="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="models/Basic Manequin.glb" position="0 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
