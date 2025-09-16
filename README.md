@@ -31,7 +31,14 @@
       </a-entity>
     >
       <!-- Model -->
-      <a-entity gltf-model="models/DT-67 Alpha MOD2.glb" position="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="models/DS-46 MOD5.glb" position="0 0 0" scale="2 2 2"></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+  >
+      <!-- Model -->
+      <a-entity gltf-model="models/DT-67 Alpha MOD2.glb" position="2 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
