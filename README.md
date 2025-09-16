@@ -53,7 +53,7 @@
 <body>
     <!-- Simple Info Panel -->
     <div class="info-panel">
-        <h3> Digital Boutique</h3>
+        <h3>🛍️ Digital Boutique</h3>
         <p><strong>How to navigate:</strong></p>
         <p>• Desktop: Click & drag to look, WASD to move</p>
         <p>• Mobile: Touch & drag to look around</p>
@@ -70,17 +70,20 @@
         embedded>
         
         <!-- Assets - This is where you'll add your 3D models -->
-        <a-assets>
+        <a-assets timeout="10000">
             <!-- YOUR ENVIRONMENT MODEL -->
-            <!-- Replace "models/your-map.gltf" with the path to your map file -->
-            <a-asset-item id="environment" src="models/your-map.gltf"></a-asset-item>
+            <!-- Replace "models/your-map.gltf" with the exact path to your map file -->
+            <a-asset-item id="https://github.com/Crescent-Dawn/test2.github.io/blob/main/Assets/gltf/Basic%20Boutique%20MK1.glb" crossorigin="anonymous"></a-asset-item>
             
             <!-- YOUR CLOTHING MODELS -->
             <!-- Add as many as you need, just copy this pattern -->
-            <a-asset-item id="clothing1" src="models/clothing-item-1.gltf"></a-asset-item>
-            <a-asset-item id="clothing2" src="models/clothing-item-2.gltf"></a-asset-item>
-            <a-asset-item id="clothing3" src="models/clothing-item-3.gltf"></a-asset-item>
+            <a-asset-item id="clothing1" src="models/clothing-item-1.gltf" crossorigin="anonymous"></a-asset-item>
+            <a-asset-item id="clothing2" src="models/clothing-item-2.gltf" crossorigin="anonymous"></a-asset-item>
+            <a-asset-item id="clothing3" src="models/clothing-item-3.gltf" crossorigin="anonymous"></a-asset-item>
             <!-- Add more clothing items here as needed -->
+            
+            <!-- FALLBACK TEST MODEL (remove once your models work) -->
+            <a-asset-item id="test-model" src="https://cdn.aframe.io/test-models/models/glTF-2.0/Duck/glTF/Duck.gltf" crossorigin="anonymous"></a-asset-item>
         </a-assets>
 
         <!-- Basic Lighting (adjust as needed) -->
@@ -88,18 +91,27 @@
         <a-light type="directional" position="2 4 2" color="#ffffff" intensity="0.8"></a-light>
         <a-light type="point" position="-2 2 2" color="#4A90E2" intensity="0.3"></a-light>
 
-        <!-- Your Environment Model -->
-        <!-- This loads your custom map -->
+        <!-- TEST MODEL (remove once your models work) -->
         <a-gltf-model 
-            src=https://github.com/Crescent-Dawn/test2.github.io/blob/main/Assets/gltf/Basic%20Boutique%20MK1.glb
+            src="#test-model" 
+            position="0 0 -2" 
+            scale="0.5 0.5 0.5"
+            animation="property: rotation; to: 0 360 0; dur: 10000; loop: true; easing: linear">
+        </a-gltf-model>
+
+        <!-- Your Environment Model -->
+        <!-- This loads your custom map - uncomment when ready -->
+        <!-- 
+        <a-gltf-model 
+            src="#environment" 
             position="0 0 0" 
             scale="1 1 1">
         </a-gltf-model>
+        -->
 
         <!-- Your Clothing Models -->
-        <!-- Position these where you want them in your space -->
-        <!-- Adjust position values based on your map layout -->
-        
+        <!-- Uncomment these when your models are ready -->
+        <!-- 
         <a-gltf-model 
             src="#clothing1" 
             position="-2 0 -1" 
@@ -123,6 +135,7 @@
             class="clothing-item"
             animation="property: rotation; to: 0 360 0; dur: 22000; loop: true; easing: linear">
         </a-gltf-model>
+        -->
 
         <!-- Add more clothing models here - just copy the pattern above -->
         
