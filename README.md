@@ -15,7 +15,7 @@
     >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="model" src="models/basicfrontmk1.glb"></a-asset-item>
+        <a-asset-item id="model" src="replacemewiththestadium"></a-asset-item>
       </a-assets>
     >
       <!-- Lighting -->
@@ -31,7 +31,7 @@
       </a-entity>
     >
       <!-- Model -->
-      <a-entity gltf-model="#model" position="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="models/DT-67 Alpha MOD2.glb" position="0 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
