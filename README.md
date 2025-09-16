@@ -17,7 +17,7 @@
       background="color: #001a33"
       shadow="type: pcsoft"
       effects="bloom"
-      effects__bloom="strength: 1.5; radius: 0.8; threshold: 0.2"
+      effects__bloom="strength: 3; radius: 1; threshold: 0.6"
       fog="type: linear; color: #ffffff"
     >
       <!-- Assets -->
