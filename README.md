@@ -41,9 +41,9 @@
       </a-entity>
 >
       <!-- Models -->
-      <a-entity gltf-model="#db7" position="0 0 0" scale="1 1 1"></a-entity>
-      <a-entity gltf-model="#ds11nt" position="0 0 2" scale="1 1 1"></a-entity>
-      <a-entity gltf-model="#dt67" position="0 0 3" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#db7" position="-1 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#dt67" position="1 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
