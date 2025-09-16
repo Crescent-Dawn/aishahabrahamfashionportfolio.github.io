@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Digital Boutique</title>
+    <title>Virtual Store</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.4.0/aframe.min.js"></script>
     
     <style>
@@ -12,180 +12,106 @@
             font-family: Arial, sans-serif;
         }
         
-        .info-panel {
+        .instructions {
             position: fixed;
-            top: 20px;
-            left: 20px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 15px;
-            border-radius: 8px;
-            max-width: 300px;
+            top: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
             z-index: 100;
-            backdrop-filter: blur(10px);
+            max-width: 250px;
         }
         
-        .vr-button {
+        .vr-btn {
             position: fixed;
             bottom: 20px;
             right: 20px;
             background: #007bff;
             color: white;
             border: none;
-            padding: 12px 20px;
-            border-radius: 25px;
+            padding: 10px 20px;
+            border-radius: 20px;
             cursor: pointer;
-            font-size: 14px;
             z-index: 100;
-        }
-        
-        .vr-button:hover {
-            background: #0056b3;
-        }
-
-        @media (max-width: 768px) {
-            .info-panel {
-                position: relative;
-                margin: 10px;
-            }
         }
     </style>
 </head>
 <body>
-    <!-- Simple Info Panel -->
-    <div class="info-panel">
-        <h3>🛍️ Digital Boutique</h3>
-        <p><strong>How to navigate:</strong></p>
-        <p>• Desktop: Click & drag to look, WASD to move</p>
-        <p>• Mobile: Touch & drag to look around</p>
-        <p>• VR: Use your headset controllers</p>
+    <!-- Instructions -->
+    <div class="instructions">
+        <strong>Controls:</strong><br>
+        Mouse: Look around<br>
+        WASD: Move<br>
+        VR: Use controllers
     </div>
+    
+    <!-- VR Button -->
+    <button class="vr-btn" onclick="document.querySelector('a-scene').enterVR()">VR Mode</button>
 
-    <!-- VR Entry Button -->
-    <button class="vr-button" onclick="enterVR()">Enter VR</button>
-
-    <!-- A-Frame Scene -->
+    <!-- WebXR Scene -->
     <a-scene 
         vr-mode-ui="enabled: true" 
-        background="color: #87CEEB"
+        background="color: skyblue"
         embedded>
         
-        <!-- Assets - This is where you'll add your 3D models -->
-        <a-assets timeout="10000">
-            <!-- YOUR ENVIRONMENT MODEL -->
-            <!-- Replace "models/your-map.gltf" with the exact path to your map file -->
-            <a-asset-item id="https://github.com/Crescent-Dawn/test2.github.io/blob/main/Assets/gltf/Basic%20Boutique%20MK1.glb" crossorigin="anonymous"></a-asset-item>
-            
-            <!-- YOUR CLOTHING MODELS -->
-            <!-- Add as many as you need, just copy this pattern -->
-            <a-asset-item id="clothing1" src="models/clothing-item-1.gltf" crossorigin="anonymous"></a-asset-item>
-            <a-asset-item id="clothing2" src="models/clothing-item-2.gltf" crossorigin="anonymous"></a-asset-item>
-            <a-asset-item id="clothing3" src="models/clothing-item-3.gltf" crossorigin="anonymous"></a-asset-item>
-            <!-- Add more clothing items here as needed -->
-            
-            <!-- FALLBACK TEST MODEL (remove once your models work) -->
-            <a-asset-item id="test-model" src="https://cdn.aframe.io/test-models/models/glTF-2.0/Duck/glTF/Duck.gltf" crossorigin="anonymous"></a-asset-item>
+        <!-- Load Your Store Model -->
+        <a-assets>
+            <!-- Replace "models/store.glb" with your actual file path -->
+            <a-asset-item id="store" src="assets/gltf/Basic-Boutique-MK1.glb"></a-asset-item>
         </a-assets>
 
-        <!-- Basic Lighting (adjust as needed) -->
-        <a-light type="ambient" color="#404040" intensity="0.4"></a-light>
-        <a-light type="directional" position="2 4 2" color="#ffffff" intensity="0.8"></a-light>
-        <a-light type="point" position="-2 2 2" color="#4A90E2" intensity="0.3"></a-light>
+        <!-- Basic Lighting -->
+        <a-light type="ambient" color="#ffffff" intensity="0.5"></a-light>
+        <a-light type="directional" position="2 4 2" intensity="0.8"></a-light>
 
-        <!-- TEST MODEL (remove once your models work) -->
+        <!-- Your Store Model -->
         <a-gltf-model 
-            src="#test-model" 
-            position="0 0 -2" 
-            scale="0.5 0.5 0.5"
-            animation="property: rotation; to: 0 360 0; dur: 10000; loop: true; easing: linear">
-        </a-gltf-model>
-
-        <!-- Your Environment Model -->
-        <!-- This loads your custom map - uncomment when ready -->
-        <!-- 
-        <a-gltf-model 
-            src="#environment" 
+            src="#store" 
             position="0 0 0" 
             scale="1 1 1">
         </a-gltf-model>
-        -->
 
-        <!-- Your Clothing Models -->
-        <!-- Uncomment these when your models are ready -->
-        <!-- 
-        <a-gltf-model 
-            src="#clothing1" 
-            position="-2 0 -1" 
-            scale="1 1 1"
-            class="clothing-item"
-            animation="property: rotation; to: 0 360 0; dur: 20000; loop: true; easing: linear">
-        </a-gltf-model>
-        
-        <a-gltf-model 
-            src="#clothing2" 
-            position="0 0 -1" 
-            scale="1 1 1"
-            class="clothing-item"
-            animation="property: rotation; to: 0 360 0; dur: 18000; loop: true; easing: linear">
-        </a-gltf-model>
-        
-        <a-gltf-model 
-            src="#clothing3" 
-            position="2 0 -1" 
-            scale="1 1 1"
-            class="clothing-item"
-            animation="property: rotation; to: 0 360 0; dur: 22000; loop: true; easing: linear">
-        </a-gltf-model>
-        -->
-
-        <!-- Add more clothing models here - just copy the pattern above -->
-        
-        <!-- Camera with Movement Controls -->
-        <a-entity id="cameraRig" position="0 1.6 3">
+        <!-- Player Camera -->
+        <a-entity 
+            id="player" 
+            position="0 1.6 3"
+            movement-controls="fly: false; speed: 0.1">
+            
             <a-camera 
                 look-controls="pointerLockEnabled: false"
-                wasd-controls="acceleration: 20"
-                cursor="rayOrigin: mouse; fuse: false">
+                wasd-controls="enabled: true; acceleration: 15">
                 
-                <!-- VR Hand Controls -->
+                <!-- VR Controllers -->
                 <a-entity 
                     hand-tracking-controls="hand: left"
-                    laser-controls="hand: left">
+                    vive-controls="hand: left"
+                    oculus-touch-controls="hand: left">
                 </a-entity>
                 
                 <a-entity 
                     hand-tracking-controls="hand: right"
-                    laser-controls="hand: right">
+                    vive-controls="hand: right"
+                    oculus-touch-controls="hand: right">
                 </a-entity>
             </a-camera>
         </a-entity>
     </a-scene>
 
     <script>
-        // Simple VR entry function
-        function enterVR() {
-            const scene = document.querySelector('a-scene');
-            scene.enterVR();
-        }
-
-        // Optional: Add click interactions to clothing items
+        // Log when the model loads or fails
         document.addEventListener('DOMContentLoaded', function() {
-            const clothingItems = document.querySelectorAll('.clothing-item');
+            const storeModel = document.querySelector('#store');
             
-            clothingItems.forEach((item, index) => {
-                item.addEventListener('click', function() {
-                    console.log(`Clicked clothing item ${index + 1}`);
-                    // You can add custom interactions here
-                    // For example: show product details, zoom in, etc.
-                });
-                
-                // Optional hover effects
-                item.addEventListener('mouseenter', function() {
-                    this.setAttribute('animation__hover', 'property: scale; to: 1.1 1.1 1.1; dur: 300');
-                });
-                
-                item.addEventListener('mouseleave', function() {
-                    this.setAttribute('animation__hover', 'property: scale; to: 1 1 1; dur: 300');
-                });
+            storeModel.addEventListener('loaded', function() {
+                console.log('✅ Store model loaded successfully!');
+            });
+            
+            storeModel.addEventListener('error', function() {
+                console.error('❌ Failed to load store model');
+                console.error('Check: 1) File exists at models/store.glb, 2) File is not corrupted');
             });
         });
     </script>
