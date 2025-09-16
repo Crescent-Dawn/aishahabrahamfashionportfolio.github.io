@@ -26,7 +26,7 @@
       <a-plane rotation="-90 0 0" width="100" height="100" color="#008000"></a-plane>
     >
       <!-- Camera -->
-      <a-entity position="0 1.6 4">
+      <a-entity position="0 1 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
     >
