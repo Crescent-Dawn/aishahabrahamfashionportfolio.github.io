@@ -30,7 +30,7 @@
       <a-light type="point" intensity="0.5" position="0 5 0" distance="30"></a-light>
 >
       <!-- Sky -->
-      <a-sky color="#985277"></a-sky>
+      <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 0"></a-sky>
 >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="100" height="100" color="#a9a9a9" shadow="receive: true"></a-plane>
@@ -41,9 +41,9 @@
       </a-entity>
 >
       <!-- Models -->
-      <a-entity gltf-model="#db7" position="-1 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
-      <a-entity gltf-model="#dt67" position="1 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
