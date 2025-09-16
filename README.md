@@ -15,7 +15,7 @@
     >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="model" src="[models/basicfrontmk1.glb](https://github.com/Crescent-Dawn/test2.github.io/blob/main/models/basicfrontmk1.glb)"></a-asset-item>
+        <a-asset-item id="model" src="models/basicfrontmk1.glb"></a-asset-item>
       </a-assets>
     >
       <!-- Lighting -->
