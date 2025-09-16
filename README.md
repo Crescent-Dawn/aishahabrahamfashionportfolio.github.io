@@ -25,12 +25,12 @@
       </a-assets>
 >
       <!-- Lighting -->
-      <a-light type="ambient" color="#FF8C61" intensity="0.4"></a-light>
+      <a-light type="ambient" color="#ffffff" intensity="0.4"></a-light>
       <a-light type="directional" color="#ffffff" intensity="0.8" position="5 10 7" castShadow="true"></a-light>
-      <a-light type="point" intensity="0.5" position="0 5 0" distance="30"></a-light>
+      <a-light type="spot" intensity="0.5" position="0 5 0" distance="30"></a-light>
 >
       <!-- Sky -->
-      <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 0"></a-sky>
+      <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 90"></a-sky>
 >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="100" height="100" color="#a9a9a9" shadow="receive: true"></a-plane>
