@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Baseline1</title>
+    <title>My WebXR Scene</title>
     <meta name="description" content="WebXR with A-Frame">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,21 +15,21 @@
     >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="model" src="[models/your-model.glb](https://github.com/Crescent-Dawn/test2.github.io/blob/main/Assets/gltf/basicfrontmk1.glb)"></a-asset-item>
+        <a-asset-item id="model" src="models/basicfrontmk1.glb"></a-asset-item>
       </a-assets>
-
+    >
       <!-- Lighting -->
       <a-light type="ambient" intensity="0.5"></a-light>
       <a-light type="directional" intensity="0.8" position="0 10 0"></a-light>
-
+    >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
-
+    >
       <!-- Camera -->
       <a-entity position="0 1.6 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
-
+    >
       <!-- Model -->
       <a-entity gltf-model="#model" position="0 0 0" scale="1 1 1"></a-entity>
     </a-scene>
