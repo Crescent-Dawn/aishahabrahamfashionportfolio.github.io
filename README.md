@@ -5,6 +5,7 @@
     <title>Ashimmersion and Crescent Dawn's Showcase</title>
     <meta name="description" content="WebXR with A-Frame">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-effects@^1.0.0/dist/aframe-effects.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -13,6 +14,8 @@
       webxr="optionalFeatures: hit-test, local-floor; requiredFeatures: local-floor"
       background="color: #001a33"
       shadow="type: pcsoft"
+      effects="bloom"
+      effects__bloom="strength: 1.5; radius: 0.8; threshold: 0.2"
     >
       <!-- Assets -->
       <a-assets>
