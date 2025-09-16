@@ -58,7 +58,7 @@
       <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
-      <a-entity gltf-model="#s1" position="0 3 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#s1" position="3 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
