@@ -31,7 +31,7 @@
       </a-entity>
     >
       <!-- Model -->
-      <a-entity gltf-model="models/DB7 MOD1.glb" position="0 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="models/HYPNOSlower.glb" position="0 0 0" scale="2 2 2"></a-entity>
     </a-scene>
     >
       <!-- Model -->
