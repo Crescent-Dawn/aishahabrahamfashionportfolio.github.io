@@ -35,6 +35,16 @@
 >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="100" height="100" color="#a9a9a9" shadow="receive: true"></a-plane>
+>      
+      <!-- Player Rig (works for Desktop, Mobile & VR) -->
+      <a-entity id="player" movement-controls position="0 1.6 4">
+        <!-- Head / Camera -->
+        <a-entity camera look-controls wasd-controls></a-entity>
+>
+        <!-- VR Controllers -->
+        <a-entity laser-controls="hand: left"></a-entity>
+        <a-entity laser-controls="hand: right"></a-entity>
+      </a-entity>
 >
       <!-- Camera -->
       <a-entity position="0 1.6 4">
