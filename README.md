@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ashimmersion and Crescent Dawn's Showcase</title>
-    <meta name="description" content="WebXR with A-Frame">
+    <title>Ashimmersion and Crescent Dawn's Showcase!</title>
+    <meta name="description" content="A-Frame Prototype">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-effects@^1.0.0/dist/aframe-effects.min.js"></script>
     <script src="https://unpkg.com/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
@@ -26,6 +26,7 @@
         <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
         <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
         <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
+        <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
       </a-assets>
 >
       <!-- Lighting -->
@@ -59,6 +60,7 @@
       <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="0 0 3" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#hypnos" position="-6 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
