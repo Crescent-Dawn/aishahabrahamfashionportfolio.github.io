@@ -16,6 +16,7 @@
       shadow="type: pcsoft"
       effects="bloom"
       effects__bloom="strength: 1.5; radius: 0.8; threshold: 0.2"
+      fog="type: linear; color: #ffffff"
     >
       <!-- Assets -->
       <a-assets>
@@ -27,7 +28,7 @@
       <!-- Lighting -->
       <a-light type="ambient" color="#ffffff" intensity="0.4"></a-light>
       <a-light type="directional" color="#ffffff" intensity="0.8" position="5 10 7" castShadow="true"></a-light>
-      <a-light type="spot" intensity="0.5" position="0 5 0" distance="30"></a-light>
+      <a-light type="point" intensity="0.5" position="0 5 0" distance="30"></a-light>
 >
       <!-- Sky -->
       <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 90"></a-sky>
