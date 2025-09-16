@@ -60,7 +60,7 @@
         <!-- Load Your Store Model -->
         <a-assets>
             <!-- Replace "models/store.glb" with your actual file path -->
-            <a-asset-item id="store" src="assets/gltf/Basic-Boutique-MK1.glb"></a-asset-item>
+            <a-asset-item id="store" src="Assets/gltf/Basic%20Boutique%20MK1.glb"></a-asset-item>
         </a-assets>
 
         <!-- Basic Lighting -->
