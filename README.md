@@ -19,7 +19,7 @@
       </a-assets>
     >
       <!-- Lighting -->
-      <a-light type="ambient" intensity="0.5"></a-light>
+      <a-light type="ambient" intensity="0.25"></a-light>
       <a-light type="directional" intensity="0.8" position="0 10 0"></a-light>
     >
       <!-- Ground -->
@@ -31,7 +31,7 @@
       </a-entity>
     >
       <!-- Model -->
-      <a-entity gltf-model="models/Basic Manequin.glb" position="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="model" position="0 0 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
