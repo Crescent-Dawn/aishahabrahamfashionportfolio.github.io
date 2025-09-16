@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My WebXR Scene</title>
+    <title>Ashimmersion and Crescent Dawn's Showcase</title>
     <meta name="description" content="WebXR with A-Frame">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
