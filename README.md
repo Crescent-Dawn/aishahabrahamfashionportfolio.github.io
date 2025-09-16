@@ -19,15 +19,6 @@
       effects="bloom"
       effects__bloom="strength: 3; radius: 1; threshold: 0.6"
       fog="type: linear; color: #ffffff"
-    >
-      <!-- Assets -->
-      <a-assets>
-        <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
-        <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
-        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
-        <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
-        <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
-      </a-assets>
 >
       <!-- Lighting -->
       <a-light type="ambient" color="#ffffff" intensity="0.4"></a-light>
@@ -55,12 +46,21 @@
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
 >
+      <!-- Assets -->
+      <a-assets>
+        <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
+        <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
+        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
+        <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
+        <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
+      </a-assets>
+>
       <!-- Models -->
       <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="0 0 3" scale="1 1 1"></a-entity>
-      <a-entity gltf-model="#hypnos" position="-6 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#hypnos" position="-6 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
