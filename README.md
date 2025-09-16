@@ -53,7 +53,7 @@
 <body>
     <!-- Simple Info Panel -->
     <div class="info-panel">
-        <h3>🛍️ Digital Boutique</h3>
+        <h3> Digital Boutique</h3>
         <p><strong>How to navigate:</strong></p>
         <p>• Desktop: Click & drag to look, WASD to move</p>
         <p>• Mobile: Touch & drag to look around</p>
@@ -91,7 +91,7 @@
         <!-- Your Environment Model -->
         <!-- This loads your custom map -->
         <a-gltf-model 
-            src="#environment" 
+            src=https://github.com/Crescent-Dawn/test2.github.io/blob/main/Assets/gltf/Basic%20Boutique%20MK1.glb
             position="0 0 0" 
             scale="1 1 1">
         </a-gltf-model>
