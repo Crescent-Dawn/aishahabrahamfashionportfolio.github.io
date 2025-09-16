@@ -11,7 +11,8 @@
     <a-scene
       vr-mode-ui="enabled: true"
       webxr="optionalFeatures: hit-test, local-floor; requiredFeatures: local-floor"
-      background="color: #0000fff"
+      background="color: #001a33"
+      shadow="type: pcsoft"
     >
       <!-- Assets -->
       <a-assets>
@@ -19,8 +20,12 @@
       </a-assets>
     >
       <!-- Lighting -->
-      <a-light type="ambient" intensity=".25"></a-light>
-      <a-light type="directional" intensity="0.5" position="0 10 0"></a-light>
+      <a-light type="ambient" color="#ffffff" intensity="0.4"></a-light>
+      <a-light type="directional" color="#ffffff" intensity="0.8" position="5 10 7" castShadow="true"></a-light>
+      <a-light type="point" intensity="0.5" position="0 5 0" distance="30"></a-light>
+    >
+      <!-- Optional Sky -->
+      <a-sky color="#88ccee"></a-sky>
     >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="100" height="100" color="#a9a9a9"></a-plane>
