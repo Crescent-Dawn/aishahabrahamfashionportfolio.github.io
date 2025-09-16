@@ -19,28 +19,31 @@
     >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="model" src="replacemewiththestadium"></a-asset-item>
+        <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
+        <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
+        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
       </a-assets>
-    >
+>
       <!-- Lighting -->
       <a-light type="ambient" color="#FF8C61" intensity="0.4"></a-light>
       <a-light type="directional" color="#ffffff" intensity="0.8" position="5 10 7" castShadow="true"></a-light>
       <a-light type="point" intensity="0.5" position="0 5 0" distance="30"></a-light>
-    >
-      <!-- Optional Sky -->
+>
+      <!-- Sky -->
       <a-sky color="#985277"></a-sky>
-    >
+>
       <!-- Ground -->
-      <a-plane rotation="-90 0 0" width="50" height="50" color="#a9a9a9"></a-plane>
-    >
+      <a-plane rotation="-90 0 0" width="100" height="100" color="#a9a9a9" shadow="receive: true"></a-plane>
+>
       <!-- Camera -->
       <a-entity position="0 1.6 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
-    >
-      <!-- Model -->
-      <a-entity gltf-model="models/DT-67 Alpha MOD2.glb" position="0 0 0" scale="2 2 2"></a-entity>
+>
+      <!-- Models -->
+      <a-entity gltf-model="#db7" position="0 0 0" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#ds11nt" position="0 0 2" scale="1 1 1"></a-entity>
+      <a-entity gltf-model="#dt67" position="0 0 3" scale="1 1 1"></a-entity>
     </a-scene>
-    
   </body>
 </html>
