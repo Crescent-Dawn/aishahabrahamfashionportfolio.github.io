@@ -23,7 +23,7 @@
       <a-light type="directional" intensity="0.8" position="0 10 0"></a-light>
     >
       <!-- Ground -->
-      <a-plane rotation="-90 0 0" width="100" height="100" color="#ffc000"></a-plane>
+      <a-plane rotation="-90 0 0" width="100" height="90" color="#ffc000"></a-plane>
     >
       <!-- Camera -->
       <a-entity position="0 1.6 4">
