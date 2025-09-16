@@ -25,6 +25,7 @@
         <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
         <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
         <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
+        <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
       </a-assets>
 >
       <!-- Lighting -->
@@ -57,6 +58,7 @@
       <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#ds11nt" position="0 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#s1" position="0 1 0" scale="1 1 1"></a-entity>
     </a-scene>
   </body>
 </html>
