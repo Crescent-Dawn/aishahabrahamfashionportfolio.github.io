@@ -93,6 +93,7 @@
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
         <a-asset-item id="fulgor" src="models/FOLGORBT.glb"></a-asset-item>
+        <a-asset-item id="map" src="models/Supernova.glb"></a-asset-item>
       </a-assets>
 
 >
@@ -106,6 +107,7 @@
       <a-entity gltf-model="#" position="-15 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#map" position="0 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
