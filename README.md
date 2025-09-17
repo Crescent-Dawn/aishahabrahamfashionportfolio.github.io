@@ -92,7 +92,7 @@
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
-        <a-asset-item id="fulgor" src="models/FOLGOR.glb"></a-asset-item>
+        <a-asset-item id="fulgor" src="models/FOLGORBT.glb"></a-asset-item>
       </a-assets>
 
 >
