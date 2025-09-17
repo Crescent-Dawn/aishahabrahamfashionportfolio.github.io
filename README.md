@@ -17,7 +17,7 @@
       background="color: #001a33"
       shadow="type: pcsoft"
       effects="bloom"
-      effects__bloom="strength: 3; radius: 1.5; threshold: 0.1"
+      effects__bloom="strength: 1; radius: 1.5; threshold: 0.5"
       fog="type: linear; color: #ffffff"
 
 >
