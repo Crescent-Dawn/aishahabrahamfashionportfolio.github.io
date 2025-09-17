@@ -104,7 +104,7 @@
       <a-entity gltf-model="#arios" position="-9 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dresst1" position="-12 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3"></a-entity>
-      <a-entity gltf-model="#fulgor" position="-15 0 0" scale="3 3 3"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-15 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
