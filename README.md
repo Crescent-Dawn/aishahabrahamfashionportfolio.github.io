@@ -99,6 +99,7 @@
         <a-asset-item id="whitel" src="models/whitelower.glb"></a-asset-item>
         <a-asset-item id="whiteu" src="models/whiteupper.glb"></a-asset-item>
         <a-asset-item id="Dress1" src="models/dress.glb"></a-asset-item>
+        <a-asset-item id="coat" src="models/coat.glb"></a-asset-item>
       </a-assets>
 
 >
@@ -118,6 +119,7 @@
       <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#coat" position="20 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
     </a-scene>
   </body>
 </html>
