@@ -89,7 +89,7 @@
         <a-asset-item id="dt67" src="models/DT-67 Alpha MOD3.glb"></a-asset-item>
         <a-asset-item id="s1" src="models/simbodysuit3.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
+        <a-asset-item id="arios" src="models/models/CD-ARIOSF2.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
         <a-asset-item id="fulgor" src="models/FOLGORBT.glb"></a-asset-item>
