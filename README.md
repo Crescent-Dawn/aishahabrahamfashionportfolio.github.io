@@ -17,7 +17,7 @@
       background="color: #001a33"
       shadow="type: pcsoft"
       effects="bloom"
-      effects__bloom="strength: 3; radius: 1; threshold: 0.6"
+      effects__bloom="strength: 1.5; radius: .5; threshold: 0.2"
       fog="type: linear; color: #ffffff"
 >
       <!-- Lighting -->
@@ -54,7 +54,7 @@
         <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
         <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
-        <a-asset-item id="dresst1" src="models/GC-AT-N1.glb"></a-asset-item>
+        <a-asset-item id="dresst1" src="models/GC-AT-N2.glb"></a-asset-item>
       </a-assets>
 >
       <!-- Models -->
