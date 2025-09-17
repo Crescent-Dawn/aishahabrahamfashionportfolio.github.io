@@ -16,6 +16,7 @@
       webxr="optionalFeatures: hit-test, local-floor; requiredFeatures: local-floor"
       background="color: #001a33"
       shadow="type: pcsoft"
+      shadowCameraVisible: true;"
       effects="bloom"
       effects__bloom="strength: 1; radius: 1.5; threshold: 0.5"
       fog="type: linear; color: #ffffff"
