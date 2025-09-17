@@ -54,6 +54,7 @@
         <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
         <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
+        <a-asset-item id="dresst1" src="models/GC-AT-N1.glb"></a-asset-item>
       </a-assets>
 >
       <!-- Models -->
@@ -63,6 +64,7 @@
       <a-entity gltf-model="#s1" position="6 0 0" scale="1 1 1"></a-entity>
       <a-entity gltf-model="#hypnos" position="-6 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#arios" position="-9 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#dresst1" position="-12 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
