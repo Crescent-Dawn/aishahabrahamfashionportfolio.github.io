@@ -21,9 +21,9 @@
       fog="type: linear; color: #ffffff"
 >
       <!-- Lighting -->
-      <a-light type="ambient" color="#ffffff" intensity="0.1"></a-light>
-      <a-light type="directional" color="#ffffff" intensity="0.1" position="5 10 7" castShadow="true"></a-light>
-      <a-light type="point" intensity="0.1" position="0 5 0" distance="30"></a-light>
+      <a-light type="ambient" color="#ffffff" intensity="0.5"></a-light>
+      <a-light type="directional" color="#ffffff" intensity="0.2" position="5 10 7" castShadow="true"></a-light>
+      <a-light type="point" intensity="0.3" position="0 5 2" distance="30"></a-light>
 >
       <!-- Sky -->
       <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 -90"></a-sky>
