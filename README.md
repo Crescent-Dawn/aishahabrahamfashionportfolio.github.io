@@ -97,7 +97,7 @@
 
 >
       <!-- Models -->
-      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="3 3 3"></a-entity>
       <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3"></a-entity>
