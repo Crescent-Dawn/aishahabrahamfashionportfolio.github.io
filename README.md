@@ -19,16 +19,39 @@
       effects="bloom"
       effects__bloom="strength: 1.5; radius: .7; threshold: 0.2"
       fog="type: linear; color: #ffffff"
+
 >
       <!-- Lighting -->
-      <a-light type="ambient" color="#ffffff" intensity=".8"castShadow="true"></a-light>
-      <a-light type="point" intensity="0.3" position="0 20 0" distance="30"></a-light>
+      <!-- Ambient light (subtle base fill) -->
+    <a-light type="ambient" color="#666" intensity="0.4"></a-light>
+
+>
+    <!-- Key light (main source, slightly warm) -->
+    <a-light type="directional" color="#FFD6AA" intensity="1.2"
+             position="5 8 5" castShadow="true" shadow-camera-far="50"></a-light>
+>
+    <!-- Fill light (cooler, softer opposite side) -->
+    <a-light type="directional" color="#88CCFF" intensity="0.6"
+             position="-5 4 -3"></a-light>
+
+>
+    <!-- Rim/back light (adds glow edge to models) -->
+    <a-light type="directional" color="#FFFFFF" intensity="0.8"
+             position="0 6 -6"></a-light>
+
+>
+    <!-- Subtle point light near models for bloom highlights -->
+    <a-light type="point" color="#FF88FF" intensity="0.5"
+             distance="15" position="0 3 2"></a-light>
+
 >
       <!-- Sky -->
       <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 -90"></a-sky>
+
 >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="50" height="50" color="#a9a9a9" shadow="receive: true" visible="false"></a-plane>
+
 >      
       <!-- Player Rig (works for Desktop, Mobile & VR) -->
       <a-entity id="player" movement-controls position="0 1.6 4">
@@ -39,11 +62,13 @@
         <a-entity laser-controls="hand: left"></a-entity>
         <a-entity laser-controls="hand: right"></a-entity>
       </a-entity>
+
 >
       <!-- Camera -->
       <a-entity position="0 1.6 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
+
 > 
       <!-- HUD text -->
       <a-entity position="0 -0.2 -1.2">
@@ -66,6 +91,7 @@
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
         <a-asset-item id="dresst1" src="models/GC-AT-N2.glb"></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
+        <a-asset-item id="fulgor" src="models/FOLGOR.glb"></a-asset-item>
       </a-assets>
 
 >
@@ -78,6 +104,7 @@
       <a-entity gltf-model="#arios" position="-9 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dresst1" position="-12 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-15 0 0" scale="3 3 3"></a-entity>
     </a-scene>
   </body>
 </html>
