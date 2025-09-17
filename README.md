@@ -44,6 +44,17 @@
       <a-entity position="0 1.6 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
+> 
+      <!-- HUD text -->
+      <a-entity position="0 -0.2 -1.2">
+      <a-text
+        value="Controls:\nWASD / Joystick = Move\nMouse / Look = Look around\nClick = Hide cursor\nVR Controllers = Point + Move"
+        align="center"
+        color="#FFF"
+        width="2"></a-text>
+      </a-entity>
+      </a-entity>
+
 >
       <!-- Assets -->
       <a-assets>
@@ -56,6 +67,7 @@
         <a-asset-item id="dresst1" src="models/GC-AT-N2.glb"></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
       </a-assets>
+
 >
       <!-- Models -->
       <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
