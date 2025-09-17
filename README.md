@@ -16,7 +16,6 @@
       webxr="optionalFeatures: hit-test, local-floor; requiredFeatures: local-floor"
       background="color: #001a33"
       shadow="type: pcsoft"
-      shadowCameraVisible: true;"
       effects="bloom"
       effects__bloom="strength: 1; radius: 1.5; threshold: 0.5"
       fog="type: linear; color: #ffffff"
@@ -99,7 +98,7 @@
 
 >
       <!-- Models -->
-      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2.25 2.25 2.25"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2.25 2.25 2.25" rotation="45 90 180"></a-entity>
       <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3"></a-entity>
