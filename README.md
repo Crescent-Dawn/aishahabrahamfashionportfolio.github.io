@@ -17,11 +17,11 @@
       background="color: #001a33"
       shadow="type: pcsoft"
       effects="bloom"
-      effects__bloom="strength: 7; radius: 3; threshold: 0.2"
+      effects__bloom="strength: 1.5; radius: .7; threshold: 0.2"
       fog="type: linear; color: #ffffff"
 >
       <!-- Lighting -->
-      <a-light type="ambient" color="#ffffff" intensity="1.5"></a-light>
+      <a-light type="ambient" color="#ffffff" intensity=".8"></a-light>
       <a-light type="directional" color="#ffffff" intensity="0.75" position="5 10 7" castShadow="true"></a-light>
       <a-light type="point" intensity="0.3" position="0 5 2" distance="30"></a-light>
 >
