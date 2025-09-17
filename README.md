@@ -29,7 +29,7 @@
       <a-sky src="models/Screenshot 2025-03-22 184201.png" rotation="0 -90 -90"></a-sky>
 >
       <!-- Ground -->
-      <a-plane rotation="-90 0 0" width="50" height="50" color="#a9a9a9" shadow="receive: true"></a-plane>
+      <a-plane rotation="-90 0 0" width="50" height="50" color="#a9a9a9" shadow="receive: true" visible="false"></a-plane>
 >      
       <!-- Player Rig (works for Desktop, Mobile & VR) -->
       <a-entity id="player" movement-controls position="0 1.6 4">
