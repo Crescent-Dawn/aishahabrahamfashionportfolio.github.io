@@ -50,7 +50,7 @@
       <a-assets>
         <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
         <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
-        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD2.glb"></a-asset-item>
+        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD3.glb"></a-asset-item>
         <a-asset-item id="s1" src="models/sign1.glb"></a-asset-item>
         <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
