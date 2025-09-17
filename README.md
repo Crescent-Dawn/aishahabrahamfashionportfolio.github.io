@@ -47,7 +47,7 @@
 
 >
       <!-- Sky -->
-      <a-sky src="models/360_F_506046531_GHFjciHXWqvrpBGzigN2fEMspKI2d0kp.jpg" rotation="0 -90 -90"></a-sky>
+      <a-sky src="models/360_F_506046531_GHFjciHXWqvrpBGzigN2fEMspKI2d0kp.jpg" rotation="0 0 0"></a-sky>
 
 >
       <!-- Ground -->
