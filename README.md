@@ -29,6 +29,7 @@
     <!-- Key light (main source, slightly warm) -->
     <a-light type="directional" color="#FFD6AA" intensity="1.2"
              position="5 8 5" castShadow="true" shadow-camera-far="50"></a-light>
+
 >
     <!-- Fill light (cooler, softer opposite side) -->
     <a-light type="directional" color="#88CCFF" intensity="0.6"
@@ -87,9 +88,9 @@
         <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
         <a-asset-item id="dt67" src="models/DT-67 Alpha MOD3.glb"></a-asset-item>
         <a-asset-item id="s1" src="models/simbodysuit3.glb"></a-asset-item>
-        <a-asset-item id="hypnos" src="models/HYPNOSlower.glb"></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="arios" src="models/CD-ARIOSF2.glb"></a-asset-item>
-        <a-asset-item id="dresst1" src="models/GC-AT-N2.glb"></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
         <a-asset-item id="fulgor" src="models/FOLGOR.glb"></a-asset-item>
       </a-assets>
@@ -97,14 +98,14 @@
 >
       <!-- Models -->
       <a-entity gltf-model="#db7" position="-3 0 0" scale="2 2 2"></a-entity>
-      <a-entity gltf-model="#ds11nt" position="12 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3"></a-entity>
-      <a-entity gltf-model="#hypnos" position="-6 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#" position="12 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#arios" position="-9 0 0" scale="2 2 2"></a-entity>
-      <a-entity gltf-model="#dresst1" position="-12 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#" position="-15 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3"></a-entity>
-      <a-entity gltf-model="#fulgor" position="-15 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-12 0 0" scale="2 2 2"></a-entity>
     </a-scene>
   </body>
 </html>
