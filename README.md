@@ -51,7 +51,7 @@
 
 >
       <!-- Ground -->
-      <a-plane rotation="-90 0 0" width="50" height="20" color="#a9a9a9" shadow="receive: true" visible="true"></a-plane>
+      <a-plane rotation="-90 0 0" width="50" height="20" color="#a9a9a9" shadow="receive: true" visible="false"></a-plane>
 
 >      
       <!-- Player Rig (works for Desktop, Mobile & VR) -->
@@ -98,7 +98,7 @@
 
 >
       <!-- Models -->
-      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="3 3 3"></a-entity>
+      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2.25 2.25 2.25"></a-entity>
       <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3"></a-entity>
@@ -107,7 +107,7 @@
       <a-entity gltf-model="#" position="-15 0 0" scale="2 2 2"></a-entity>
       <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2"></a-entity>
-      <a-entity gltf-model="#map" position="0 0 0" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#map" position="0 0 0" scale="5 5 5"></a-entity>
     </a-scene>
   </body>
 </html>
