@@ -100,12 +100,12 @@
       <!-- Models -->
       <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#dt67" position="3 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#dt67" position="-9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#arios" position="-9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="-15 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#furcoat" position="0 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#arios" position="9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#map" position="0 0 0" scale="8 8 8" rotation="0 0 0"></a-entity>
     </a-scene>
