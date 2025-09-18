@@ -9,9 +9,9 @@
     <script src="https://unpkg.com/aframe-effects@^1.0.0/dist/aframe-effects.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.6.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-material-override-component/dist/aframe-material-override-component.min.js"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <a-scene
@@ -119,15 +119,15 @@
       <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0" mesh-standard="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
+      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0" material-override="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
       <a-entity gltf-model="#greyu" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#greyl" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" mesh-standard="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
-      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" mesh-standard="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
+      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" material-override="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
+      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material-override="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
 </html>
