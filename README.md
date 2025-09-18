@@ -1,4 +1,3 @@
-<img width="428" height="921" alt="image" src="https://github.com/user-attachments/assets/8bb073a6-a1a9-47f1-b564-2c027ce007fc" /><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -116,15 +115,15 @@
       <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#map" position="0 0 0" scale="8 8 8" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#greyu" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#greyl" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0" material="emissive: #AAD8E6; emissiveIntensity: 1.5">></a-entity>
-      <a-entity gltf-model="#Flooraccents" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity> 
+      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="emissive: #AAD8E6; emissiveIntensity: 1.5">></a-entity>
+      <a-entity gltf-model="#Flooraccents" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity> 
     </a-scene>
   </body>
 </html>
