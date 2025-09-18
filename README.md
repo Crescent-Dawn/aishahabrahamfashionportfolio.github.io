@@ -118,15 +118,15 @@
       <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0" material="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
+      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0" modify-materials="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
       <a-entity gltf-model="#greyu" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#greyl" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
-      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
+      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" modify-materials="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
+      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" modify-materials="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
 </html>
