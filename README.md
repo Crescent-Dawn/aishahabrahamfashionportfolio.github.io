@@ -10,6 +10,36 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://unpkg.com/aframe-material-override-component/dist/aframe-material-override-component.min.js"></script>
+    <script>
+  // Custom component for glowing models
+  AFRAME.registerComponent('glow-material', {
+    schema: {
+      color: {type: 'color', default: '#ffffff'},
+      emissive: {type: 'color', default: '#ffffff'},
+      emissiveIntensity: {type: 'number', default: 2.5},
+      metalness: {type: 'number', default: 0.0},
+      roughness: {type: 'number', default: 0.5}
+    },
+    init: function () {
+      this.el.addEventListener('model-loaded', () => {
+        const mesh = this.el.getObject3D('mesh');
+        if (!mesh) return;
+        mesh.traverse(node => {
+          if (node.isMesh) {
+            node.material = new THREE.MeshStandardMaterial({
+              color: new THREE.Color(this.data.color),
+              emissive: new THREE.Color(this.data.emissive),
+              emissiveIntensity: this.data.emissiveIntensity,
+              metalness: this.data.metalness,
+              roughness: this.data.roughness
+            });
+            node.material.needsUpdate = true;
+          }
+        });
+      });
+    }
+  });
+</script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -119,14 +149,14 @@
       <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#map" position="0 -1 0" scale="1 1 1" rotation="0 0 0" material="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
+      <a-entity gltf-model="#map" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
       <a-entity gltf-model="#greyu" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#greyl" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
+      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" glow-material="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
       <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
