@@ -10,6 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://unpkg.com/aframe-material-override-component/dist/aframe-material-override-component.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/loaders/FBXLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-fbx-component/dist/aframe-fbx-component.min.js"></script>
     <script>
   // Custom component for glowing models
   AFRAME.registerComponent('glow-material', {
@@ -156,8 +158,6 @@
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" glow-material="emissive: #AAD8E6; emissiveIntensity: 10">></a-entity>
-      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
 </html>
