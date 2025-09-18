@@ -14,11 +14,11 @@
   // Custom component for glowing models
   AFRAME.registerComponent('glow-material', {
     schema: {
-      color: {type: 'color', default: '#ffffff'},
-      emissive: {type: 'color', default: '#ffffff'},
-      emissiveIntensity: {type: 'number', default: 2.5},
-      metalness: {type: 'number', default: 0.0},
-      roughness: {type: 'number', default: 0.5}
+      color: {type: 'color', default: '#AAD8E6'},
+      emissive: {type: 'color', default: '#AAD8E6'},
+      emissiveIntensity: {type: 'number', default: 3},
+      metalness: {type: 'number', default: 1.0},
+      roughness: {type: 'number', default: 0.0}
     },
     init: function () {
       this.el.addEventListener('model-loaded', () => {
