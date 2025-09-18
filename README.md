@@ -128,7 +128,7 @@
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
         <a-asset-item id="fulgor" src="models/FOLGORBT.glb"></a-asset-item>
-        <a-asset-item id="map" src="models/BoutiqueMK1.fbx"></a-asset-item>
+        <a-asset-item id="map" src="models/models/Basic Boutique MK1.glb"></a-asset-item>
         <a-asset-item id="greyu" src="models/greyupper.glb"></a-asset-item>
         <a-asset-item id="greyl" src="models/greylower.glb"></a-asset-item>
         <a-asset-item id="whitel" src="models/whitelower.glb"></a-asset-item>
