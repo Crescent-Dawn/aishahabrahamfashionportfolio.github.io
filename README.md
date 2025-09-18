@@ -25,7 +25,7 @@
 >
       <!-- Lighting -->
       <!-- Ambient light (subtle base fill) -->
-    <a-light type="ambient" color="#666" intensity="0.4"></a-light>
+    <a-light type="ambient" color="#bef0ff" intensity="0.4"></a-light>
 
 >
     <!-- Key light (main source, slightly warm) -->
@@ -126,7 +126,7 @@
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
-      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity> 
+      <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
 </html>
