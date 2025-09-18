@@ -50,7 +50,7 @@
       background="color: #001a33"
       shadow="type: pcsoft"
       effects="bloom"
-      effects__bloom="strength: 1; radius: 1.5; threshold: 0.5"
+      effects__bloom="strength: 4; radius: 1.2; threshold: 0.1"
       fog="type: linear; color: #ffffff"
 
 >
@@ -156,7 +156,7 @@
       <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" glow-material="emissive: #AAD8E6; emissiveIntensity: 4">></a-entity>
+      <a-entity gltf-model="#lighting" position="0 0 0" scale="1 1 1" rotation="0 0 0" glow-material="emissive: #AAD8E6; emissiveIntensity: 10">></a-entity>
       <a-entity gltf-model="#diamonds" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #ffffff; metalness: 1; roughness: 0"></a-entity> 
     </a-scene>
   </body>
