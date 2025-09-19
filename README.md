@@ -87,12 +87,7 @@
 >
       <!-- Ground -->
       <a-plane rotation="-90 0 0" width="50" height="20" color="#a9a9a9" shadow="receive: true" visible="false"></a-plane>
-
->      
-      <!-- Player Rig (works for Desktop, Mobile & VR) -->
-      <a-entity id="player" movement-controls position="0 1.6 4"></a-entity>
-      <!-- Head / Camera -->
-      <a-entity camera look-controls wasd-controls></a-entity>
+      
 >
         <!-- VR Controllers -->
         <a-entity laser-controls="hand: left"></a-entity>
@@ -147,17 +142,17 @@
       <a-entity gltf-model="#furcoat" position="2 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
     </a-scene>
   </body>
 </html>
