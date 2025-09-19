@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ashimmersion and Crescent Dawn's Showcase!</title>
+    <title>Aishah & Abraham's Showcase!</title>
     <meta name="description" content="A-Frame Prototype">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-effects@^1.0.0/dist/aframe-effects.min.js"></script>
