@@ -89,7 +89,7 @@
         <a-asset-item id="furcoat" src="models/revised/furcoat.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/revised/arios.glb"></a-asset-item>
         <a-asset-item id="starlost" src="models/revised/starlost.glb"></a-asset-item>
-        <a-asset-item id="bodysuit" src=""></a-asset-item>
+        <a-asset-item id="bodysuit" src="models/revised/bodysuit.glb"></a-asset-item>
         <a-asset-item id="fulgor" src="models/revised/fulgornt.glb"></a-asset-item>
         <a-asset-item id="bodysuit" src="models/revised/bodysuit.glb"></a-asset-item>
         <a-asset-item id="cottage" src="models/revised/cottagecore.glb"></a-asset-item>
