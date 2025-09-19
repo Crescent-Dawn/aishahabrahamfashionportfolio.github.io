@@ -97,7 +97,8 @@
         <a-asset-item id="pantsuit" src="models/revised/pantsuit.glb"></a-asset-item>
         <a-asset-item id="whitefur" src="models/revised/whitefur.glb"></a-asset-item>
         <a-asset-item id="galaxycoat" src="models/revised/galaxycoat.glb"></a-asset-item>
-      </a-assets>
+        <iframe width="0" height="0" src="https://www.youtube.com/watch?v=4rW4XuG-2Uc" frameborder="0" allow="autoplay"></iframe>
+</a-assets>
 
 >
       <!-- Models -->
