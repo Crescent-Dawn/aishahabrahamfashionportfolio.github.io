@@ -101,7 +101,7 @@
 
 >
       <!-- Camera -->
-      <a-entity position="0 1.6 4">
+      <a-entity position="0 1.2 4">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
 
