@@ -119,45 +119,45 @@
 >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="db7" src="models/DB7 MOD1.glb"></a-asset-item>
-        <a-asset-item id="ds11nt" src="models/DS-011 NEWTYPE.glb"></a-asset-item>
-        <a-asset-item id="dt67" src="models/DT-67 Alpha MOD3.glb"></a-asset-item>
-        <a-asset-item id="s1" src="models/simbodysuit3.glb"></a-asset-item>
+        <a-asset-item id="IFIS" src="models/revised/IFIstudios.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="arios" src="models/models/CD-ARIOSF2.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="furcoat" src="models/furcoatblend.glb"></a-asset-item>
-        <a-asset-item id="fulgor" src="models/FOLGORBT.glb"></a-asset-item>
-        <a-asset-item id="map" src="models/models/Basic Boutique MK1.glb"></a-asset-item>
-        <a-asset-item id="greyu" src="models/greyupper.glb"></a-asset-item>
-        <a-asset-item id="greyl" src="models/greylower.glb"></a-asset-item>
-        <a-asset-item id="whitel" src="models/whitelower.glb"></a-asset-item>
-        <a-asset-item id="whiteu" src="models/whiteupper.glb"></a-asset-item>
-        <a-asset-item id="Dress1" src="models/dress.glb"></a-asset-item>
-        <a-asset-item id="coat" src="models/coat.glb"></a-asset-item>
-        <a-asset-item id="lighting" src="models/lighting.gltf"></a-asset-item>
-        <a-asset-item id="diamonds" src="models/Floorassets.gltf"></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
       </a-assets>
 
 >
       <!-- Models -->
-      <a-entity gltf-model="#fulgor" position="-3 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#ds11nt" position="-6 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#dt67" position="-9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#s1" position="6 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#IFIS" position="0 0 0" scale="0 0 0" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="-6 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="-9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="6 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#arios" position="9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="9 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#furcoat" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#db7" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#map" position="0 0 0" scale="1 1 1" rotation="0 0 0" material="color: #D3D3D3; metalness: 0.4; roughness: 0.15; sphericalEnvMap: #skyTexture"></a-entity>
-      <a-entity gltf-model="#greyu" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#greyl" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#whitel" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#whiteu" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#Dress1" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#coat" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="3 0 0" scale="3 3 3" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="-12 0 0" scale="2 2 2" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="0 0 -2" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="15 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#" position="17 0 0" scale="2.25 2.25 2.25" rotation="0 0 0"></a-entity>
     </a-scene>
   </body>
 </html>
