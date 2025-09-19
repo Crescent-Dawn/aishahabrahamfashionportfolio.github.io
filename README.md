@@ -95,13 +95,7 @@
         <a-asset-item id="cottage" src="models/revised/cottagecore.glb"></a-asset-item>
         <a-asset-item id="skirtsuit" src="models/revised/skirtsuit.glb"></a-asset-item>
         <a-asset-item id="pantsuit" src="models/revised/pantsuit.glb"></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="whitefur" src="models/revised/whitefur.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
       </a-assets>
 
@@ -118,10 +112,7 @@
       <a-entity gltf-model="#cottage" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#skirtsuit" position="0 0.1 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#pantsuit" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#whitefur" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
     </a-scene>
   </body>
