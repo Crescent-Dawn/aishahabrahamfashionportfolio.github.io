@@ -91,7 +91,7 @@
         <a-asset-item id="starlost" src="models/revised/starlost.glb"></a-asset-item>
         <a-asset-item id="bodysuit" src=""></a-asset-item>
         <a-asset-item id="fulgor" src="models/revised/fulgornt.glb"></a-asset-item>
-        <a-asset-item id="" src=""></a-asset-item>
+        <a-asset-item id="bodysuit" src="models/revised/bodysuit.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
@@ -114,7 +114,7 @@
       <a-entity gltf-model="#starlost" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#bodysuit" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#fulgor" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#bodysuit" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
