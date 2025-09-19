@@ -13,36 +13,7 @@
     <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/loaders/FBXLoader.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-fbx-component/dist/aframe-fbx-component.min.js"></script>
     <script>
-  // Custom component for glowing models
-  AFRAME.registerComponent('glow-material', {
-    schema: {
-      color: {type: 'color', default: '#AAD8E6'},
-      emissive: {type: 'color', default: '#AAD8E6'},
-      emissiveIntensity: {type: 'number', default: 3},
-      metalness: {type: 'number', default: 1.0},
-      roughness: {type: 'number', default: 0.0}
-    },
-    init: function () {
-      this.el.addEventListener('model-loaded', () => {
-        const mesh = this.el.getObject3D('mesh');
-        if (!mesh) return;
-        mesh.traverse(node => {
-          if (node.isMesh) {
-            node.material = new THREE.MeshStandardMaterial({
-              color: new THREE.Color(this.data.color),
-              emissive: new THREE.Color(this.data.emissive),
-              emissiveIntensity: this.data.emissiveIntensity,
-              metalness: this.data.metalness,
-              roughness: this.data.roughness
-            });
-            node.material.needsUpdate = true;
-          }
-        });
-      });
-    }
-  });
-</script>
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -96,7 +67,7 @@
 
 >
       <!-- Camera -->
-      <a-entity position="0 1.2 4">
+      <a-entity position="0 1.2 0" rotation="0 0 0">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
 
