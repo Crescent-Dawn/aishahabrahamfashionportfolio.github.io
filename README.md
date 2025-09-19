@@ -66,7 +66,7 @@
 
 >
       <!-- Camera -->
-      <a-entity position="0 1.2 0" rotation="0 0 0">
+      <a-entity position="0 .7 0" rotation="0 0 0">
         <a-camera wasd-controls-enabled="true" look-controls-enabled="true"></a-camera>
       </a-entity>
 
@@ -84,7 +84,7 @@
 >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="IFIS" src=""></a-asset-item>
+        <a-asset-item id="IFIS" src="models/revised/IFIStudios.glb"></a-asset-item>
         <a-asset-item id="mirrordress" src="models/revised/mirrordress.glb"></a-asset-item>
         <a-asset-item id="furcoat" src="models/revised/furcoat.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/revised/arios.glb"></a-asset-item>
