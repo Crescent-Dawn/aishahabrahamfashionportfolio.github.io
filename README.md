@@ -119,7 +119,7 @@
 >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="IFIS" src="models/revised/IFIstudios.glb"></a-asset-item>
+        <a-asset-item id="IFIS" src="models/revised/IFIStudios.glb"></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
         <a-asset-item id="" src=""></a-asset-item>
