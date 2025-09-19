@@ -12,7 +12,6 @@
     <script src="https://unpkg.com/aframe-material-override-component/dist/aframe-material-override-component.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js/examples/js/loaders/FBXLoader.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-fbx-component/dist/aframe-fbx-component.min.js"></script>
-    <script>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
