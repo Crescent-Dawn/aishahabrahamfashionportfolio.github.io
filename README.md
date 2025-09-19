@@ -84,7 +84,7 @@
 >
       <!-- Assets -->
       <a-assets>
-        <a-asset-item id="IFIS" src=""></a-asset-item>
+        <a-asset-item id="IFIS" src="models/revised/IFIStudios.glb"></a-asset-item>
         <a-asset-item id="mirrordress" src="models/revised/mirrordress.glb"></a-asset-item>
         <a-asset-item id="furcoat" src="models/revised/furcoat.glb"></a-asset-item>
         <a-asset-item id="arios" src="models/revised/arios.glb"></a-asset-item>
