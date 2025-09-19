@@ -116,7 +116,7 @@
       <a-entity gltf-model="#fulgor" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#bodysuit" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#cottage" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
-      <a-entity gltf-model="#skirtsuit" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
+      <a-entity gltf-model="#skirtsuit" position="0 0.1 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
       <a-entity gltf-model="#" position="0 0 0" scale="1 1 1" rotation="0 0 0"></a-entity>
